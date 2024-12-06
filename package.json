@@ -30,6 +30,8 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "postcss": "^8.4.49",
+    "prettier": "3.4.2",
+    "prettier-plugin-tailwindcss": "0.6.9",
     "tailwindcss": "^3.4.16",
     "typescript": "~5.6.2"
   },
@@ -41,6 +43,8 @@
   "private": true,
   "scripts": {
     "build": "ng build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "ng": "ng",
     "serve:ssr:ng-fem-starter": "node dist/ng-fem-starter/server/server.mjs",
     "start": "ng serve",
