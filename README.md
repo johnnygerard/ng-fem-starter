@@ -1,59 +1,41 @@
-# NgFemStarter
+# Frontend Mentor | placeholder
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
+This is my solution to the [placeholder](https://www.frontendmentor.io/challenges/placeholder)
+from [Frontend Mentor](https://www.frontendmentor.io/).
 
-## Development server
+![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)
+![live demo](https://img.shields.io/badge/live_demo-blue?style=for-the-badge)
+![Lighthouse report](https://img.shields.io/badge/lighthouse-%23F44B21?style=for-the-badge&logo=lighthouse&logoColor=fff)
 
-To start a local development server, run:
+## Tech Stack
 
-```bash
-ng serve
-```
+### Frontend
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Framework**: [Angular](https://angular.dev/)
+- **Style**: [Tailwind CSS](https://tailwindcss.com/)
 
-## Code scaffolding
+### Backend
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- **CDN**: Static assets served from [Vercel Edge Network](https://vercel.com/docs/edge-network/overview).
 
-```bash
-ng generate component component-name
-```
+## Dev Environment & Tools
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- System: [Ubuntu 24](https://ubuntu.com/desktop)
+- IDE: [WebStorm](https://www.jetbrains.com/webstorm/)
+- Formatter: [Prettier](https://prettier.io/)
+- Linter: [ESLint](https://eslint.org/)
+- AI assistant: [GitHub Copilot](https://github.com/features/copilot)
 
-```bash
-ng generate --help
-```
+## Screenshots
 
-## Building
+### Mobile Home Page
 
-To build the project run:
+![mobile home page](docs/screenshots/mobile.png)
 
-```bash
-ng build
-```
+### Desktop Home Page
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+![desktop home page](docs/screenshots/desktop.png)
 
-## Running unit tests
+## Copyright
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+© 2024 Johnny Gérard
