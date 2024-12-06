@@ -43,5 +43,6 @@
     "start": "ng serve",
     "test": "ng test",
     "watch": "ng build --watch --configuration development"
-  }
+  },
+  "type": "module"
 }
