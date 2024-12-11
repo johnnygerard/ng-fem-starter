@@ -114,6 +114,17 @@
             "styles": ["src/styles.css"],
             "scripts": []
           }
+        },
+        "e2e": {
+          "builder": "playwright-ng-schematics:playwright",
+          "options": {
+            "devServerTarget": "ng-fem-starter:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ng-fem-starter:serve:production"
+            }
+          }
         }
       }
     }
