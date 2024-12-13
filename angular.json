@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-fem-starter": {
+    "starter-angular-19": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -42,7 +42,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ng-fem-starter",
+            "outputPath": "dist/starter-angular-19",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -89,10 +89,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ng-fem-starter:build:production"
+              "buildTarget": "starter-angular-19:build:production"
             },
             "development": {
-              "buildTarget": "ng-fem-starter:build:development"
+              "buildTarget": "starter-angular-19:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -118,11 +118,11 @@
         "e2e": {
           "builder": "playwright-ng-schematics:playwright",
           "options": {
-            "devServerTarget": "ng-fem-starter:serve"
+            "devServerTarget": "starter-angular-19:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ng-fem-starter:serve:production"
+              "devServerTarget": "starter-angular-19:serve:production"
             }
           }
         }

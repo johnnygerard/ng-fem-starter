@@ -44,7 +44,7 @@
     "node": "22",
     "npm": "10"
   },
-  "name": "ng-fem-starter",
+  "name": "starter-angular-19",
   "private": true,
   "scripts": {
     "build": "ng build",
@@ -52,7 +52,7 @@
     "format:check": "prettier --check .",
     "lint": "eslint .",
     "ng": "ng",
-    "serve:ssr:ng-fem-starter": "node dist/ng-fem-starter/server/server.mjs",
+    "serve:ssr:starter-angular-19": "node dist/starter-angular-19/server/server.mjs",
     "start": "ng serve",
     "test": "ng test",
     "test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
