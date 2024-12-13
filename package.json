@@ -55,6 +55,7 @@
     "serve:ssr:ng-fem-starter": "node dist/ng-fem-starter/server/server.mjs",
     "start": "ng serve",
     "test": "ng test",
+    "test:ci": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
     "watch": "ng build --watch --configuration development",
     "e2e": "ng e2e"
   },
