@@ -1,7 +1,7 @@
-# Frontend Mentor | placeholder
+# Angular 19 Starter
 
-This is my solution to the [placeholder](https://www.frontendmentor.io/challenges/placeholder)
-from [Frontend Mentor](https://www.frontendmentor.io/).
+This starter repository facilitates the creation of new Angular projects using the configuration described below.  
+To learn how to use a GitHub template repository, check out [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
 
 ![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)
 ![live demo](https://img.shields.io/badge/live_demo-blue?style=for-the-badge)
@@ -14,27 +14,13 @@ from [Frontend Mentor](https://www.frontendmentor.io/).
 - **Framework**: [Angular](https://angular.dev/)
 - **Style**: [Tailwind CSS](https://tailwindcss.com/)
 
-### Backend
-
-- **CDN**: Static assets served from [Vercel Edge Network](https://vercel.com/docs/edge-network/overview).
-
 ## Dev Environment & Tools
 
-- System: [Ubuntu 24](https://ubuntu.com/desktop)
+- System: [Ubuntu](https://ubuntu.com/desktop)
 - IDE: [WebStorm](https://www.jetbrains.com/webstorm/)
 - Formatter: [Prettier](https://prettier.io/)
 - Linter: [ESLint](https://eslint.org/)
 - AI assistant: [GitHub Copilot](https://github.com/features/copilot)
-
-## Screenshots
-
-### Mobile Home Page
-
-![mobile home page](docs/screenshots/mobile.png)
-
-### Desktop Home Page
-
-![desktop home page](docs/screenshots/desktop.png)
 
 ## Copyright
 
