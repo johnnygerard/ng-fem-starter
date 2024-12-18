@@ -1,6 +1,6 @@
+import { HomePageComponent } from "@/app/pages/home-page/home-page.component";
+import { NotFoundPageComponent } from "@/app/pages/not-found-page/not-found-page.component";
 import { Routes } from "@angular/router";
-import { HomePageComponent } from "./pages/home-page/home-page.component";
-import { NotFoundPageComponent } from "./pages/not-found-page/not-found-page.component";
 
 export const routes: Routes = [
   {
