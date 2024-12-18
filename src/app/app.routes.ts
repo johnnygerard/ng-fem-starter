@@ -1,15 +1,19 @@
-import { HomePageComponent } from "@/app/pages/home-page/home-page.component";
-import { NotFoundPageComponent } from "@/app/pages/not-found-page/not-found-page.component";
 import { Routes } from "@angular/router";
 
 export const routes: Routes = [
   {
     path: "",
     pathMatch: "full",
-    component: HomePageComponent,
+    loadComponent: async () =>
+      (await import("@/app/pages/home-page/home-page.component"))
+        .HomePageComponent,
+    title: "Home",
   },
   {
     path: "**",
-    component: NotFoundPageComponent,
+    loadComponent: async () =>
+      (await import("@/app/pages/not-found-page/not-found-page.component"))
+        .NotFoundPageComponent,
+    title: "Not Found",
   },
 ];
