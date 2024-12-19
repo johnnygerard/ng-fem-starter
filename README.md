@@ -17,7 +17,7 @@ To learn how to use a GitHub template repository, check out [Creating a reposito
 ## Dev Environment & Tools
 
 - System: [Ubuntu](https://ubuntu.com/desktop)
-- IDE: [WebStorm](https://www.jetbrains.com/webstorm/)
+- IDEs: [VS Code](https://code.visualstudio.com/), [WebStorm](https://www.jetbrains.com/webstorm/)
 - Formatter: [Prettier](https://prettier.io/)
 - Linter: [ESLint](https://eslint.org/)
 - AI assistant: [GitHub Copilot](https://github.com/features/copilot)
