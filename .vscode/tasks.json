@@ -1,0 +1,70 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "serve",
+      "type": "shell",
+      "command": "ng serve",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "Building..."
+          },
+          "endsPattern": {
+            "regexp": "Application bundle generation complete"
+          }
+        }
+      }
+    },
+    {
+      "label": "test (all specs)",
+      "type": "shell",
+      "command": "ng test",
+      "isBackground": true,
+      "group": {
+        "kind": "test",
+        "isDefault": false
+      },
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "Generating browser application bundles"
+          },
+          "endsPattern": {
+            "regexp": "Browser application bundle generation complete"
+          }
+        }
+      }
+    },
+    {
+      "label": "test current file",
+      "type": "shell",
+      "command": "ng test --include ${relativeFile}",
+      "isBackground": true,
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "Generating browser application bundles"
+          },
+          "endsPattern": {
+            "regexp": "Browser application bundle generation complete"
+          }
+        }
+      }
+    }
+  ]
+}
